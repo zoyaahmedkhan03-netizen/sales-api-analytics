@@ -1,0 +1,52 @@
+{
+  "info": {
+    "_postman_id": "d4f56c6c-94ad-436a-9ab4-cc9360bdbfb5",
+    "name": "API Tests for Sales Pipeline",
+    "description": "## API Tests for Sales Pipeline\n\nThis collection contains API tests designed to support and validate the **Sales Pipeline** workflow. It targets the [JSONPlaceholder](https://jsonplaceholder.typicode.com) API — a free, public REST API commonly used for testing and prototyping.\n\n### What's Included\n\n- **User Data Retrieval** — GET requests to the `/users` endpoint to fetch user records, which can represent leads, contacts, or account owners in a sales context.\n    \n\n### Purpose\n\nUse this collection to verify that user-related API endpoints are functioning correctly as part of your sales pipeline testing strategy. It serves as a foundation for building out more comprehensive test coverage across the pipeline.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53010097",
+    "_collection_link": "https://go.postman.co/collection/53010097-d4f56c6c-94ad-436a-9ab4-cc9360bdbfb5?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/users",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/users",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
